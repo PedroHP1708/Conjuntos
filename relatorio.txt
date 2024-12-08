@@ -1,0 +1,7 @@
+Autoria:
+    Frederico Scheffel Oliveira 15452718
+    Pedro Henrique Perez Dias   15484075
+
+
+Estruturas escolhidas: Árvore AVL e Árvore Rubro Negra (LLRBT) 
+    
