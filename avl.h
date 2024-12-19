@@ -6,11 +6,14 @@ Autoria:
 
 #ifndef _AVL_H
 #define _AVL_H
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
 
     typedef struct avl AVL;
 
     // Função responsável por criar a árvore avl
-    AVL *avl_criar(unsigned char tipo);
+    AVL *avl_criar(void);
 
     // Função responsável por verificar se um elemento está na árvore avl
     bool avl_pertence(AVL *A, int elemento);
@@ -24,7 +27,7 @@ Autoria:
     // Função responsável por apagar a árvore avl
     void avl_apagar(AVL **s);
 
-    // Função responsável por imprimir os nós da árvore avl
+    // Função responsável por imprimir os nós da árvores avl
     void avl_imprimir(AVL *s);
 
     // Função responsável por fazer a união de 2 árvores avl
